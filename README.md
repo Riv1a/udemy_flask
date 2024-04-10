@@ -4,7 +4,7 @@ This folder includes:
 
 Basic Flask Syntax
 
-Flask imports like flask-login, flask-mail, flask-migrate, flask-reupload, flask-wtf
+Flask imports like flask-admin, flask-login, flask-mail, flask-migrate, flask-reupload, flask-wtf
 
 A Foodtracker app
 
