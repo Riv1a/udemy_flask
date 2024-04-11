@@ -1,4 +1,4 @@
-from flask_wtf_example.views import demo
+from views import demo
 from flask import Flask
 
 app = Flask(__name__)

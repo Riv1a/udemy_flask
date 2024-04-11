@@ -2,13 +2,13 @@ from flask import Flask
 from flask_mail import Mail, Message
 
 app = Flask(__name__)
-app.config['MAIL_SERVER'] = 'imap.gmx.net'
-app.config['MAIL_PORT'] = 993
-app.config['MAIL_USERNAME'] = 'pyt0r@gmx.de'
-app.config['MAIL_PASSWORD'] = 'w4tch,punk.27cy83r'
+app.config['MAIL_SERVER'] = ''
+app.config['MAIL_PORT'] = 0
+app.config['MAIL_USERNAME'] = ''
+app.config['MAIL_PASSWORD'] = ''
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_DEFAULT_SENDER'] = 'pyt0r@gmx.de'
+app.config['MAIL_DEFAULT_SENDER'] = ''
 
 mail = Mail()
 mail.init_app(app)
