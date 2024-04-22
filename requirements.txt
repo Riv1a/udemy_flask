@@ -1,0 +1,13 @@
+flask
+flask-admin
+flask-babel
+flask-bcrypt
+flask-login
+flask-mail
+flask-migrate
+flask-reuploaded
+flask-wtf
+flask-restless
+flask-security
+flask-socketio
+flask-sqlalchemy
