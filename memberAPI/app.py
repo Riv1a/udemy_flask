@@ -4,8 +4,8 @@ from functools import wraps
 
 app = Flask(__name__)
 
-api_username = 'admin'
-api_password = 'password'
+api_username = ''
+api_password = ''
 
 def protected(f):
     @wraps(f)
