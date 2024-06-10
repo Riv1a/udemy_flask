@@ -4,8 +4,16 @@ This folder includes:
 
 Basic Flask Syntax
 
-Engage, a twitter clone
+Foodtracker app | basic member API
 
-Flask imports like flask-admin, flask-babel, flask-login, flask-mail, flask-migrate, flask-reupload, flask-wtf, flask-restless, flask-security, flask-socketio
-
-Foodtracker app | Forum App | basic member API | Store App | Weather App
+Flask imports like 
+<li>flask-admin</li>
+<li>flask-babel</li>
+<li>flask-login</li>
+<li>flask-mail</li>
+<li>flask-migrate</li>
+<li>flask-reupload</li>
+<li>flask-wtf</li>
+<li>flask-restless</li>
+<li>flask-security</li>
+<li>flask-socketio</li>
