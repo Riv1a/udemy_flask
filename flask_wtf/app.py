@@ -50,12 +50,12 @@ class User:
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'Mysecret!'
+app.config['SECRET_KEY'] = ''
 app.config['WTF_CSRF_ENABLED'] = True
-app.config['WTF_CSRF_SECRET_KEY'] = 'Mycsrfsecret'
+app.config['WTF_CSRF_SECRET_KEY'] = ''
 app.config['WTF_CSRF_TIME_LIMIT'] = 30
-app.config['RECAPTCHA_PUBLIC_KEY'] = '6LdpN0UpAAAAAGX0t8GQlDhN9DErW4YrSvhBUGz3'
-app.config['RECAPTCHA_PRIVATE_KEY'] = '6LdpN0UpAAAAABgXbgII_-snj1nm1BsxyLC3b6Wc'
+app.config['RECAPTCHA_PUBLIC_KEY'] = ''
+app.config['RECAPTCHA_PRIVATE_KEY'] = ''
 app.config['TESTING'] = True
 
 @app.route('/', methods=['GET', 'POST'])
