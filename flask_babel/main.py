@@ -5,7 +5,7 @@ from datetime import date, datetime
 app = Flask(__name__)
 babel = Babel(app)
 
-app.config['SECRET_KEY'] = 'kagebunshinnojutsu'
+app.config['SECRET_KEY'] = ''
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['BABEL_DEFAULT_TIMEZONE'] = 'UTC'
