@@ -4,7 +4,7 @@ import sqlite3
 app= Flask(__name__)
 
 app.config['DEBUG'] = True
-app.config['SECRET_KEY'] = 'kitsune'
+app.config['SECRET_KEY'] = ''
 
 def connect_db():
     sql = sqlite3.connect('/Users/florianschmitt/desktop/projects/webflask/website/database/data.db')
