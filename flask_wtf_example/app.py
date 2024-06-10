@@ -2,7 +2,7 @@ from views import demo
 from flask import Flask
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'Mysecret'
+app.config['SECRET_KEY'] = ''
 
 app.register_blueprint(demo)
 
