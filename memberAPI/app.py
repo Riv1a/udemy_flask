@@ -4,7 +4,7 @@ from functools import wraps
 
 app = Flask(__name__)
 
-api_username = ''
+api_username = '' # Choose Username and Password
 api_password = ''
 
 def protected(f):
