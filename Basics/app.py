@@ -7,7 +7,7 @@ app.config['DEBUG'] = True
 app.config['SECRET_KEY'] = ''
 
 def connect_db():
-    sql = sqlite3.connect('/Users/florianschmitt/desktop/projects/webflask/website/database/data.db')
+    sql = sqlite3.connect('')
     sql.row_factory = sqlite3.Row
     return sql
 
