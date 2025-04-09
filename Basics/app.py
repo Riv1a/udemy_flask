@@ -7,7 +7,7 @@ app.config['DEBUG'] = True
 app.config['SECRET_KEY'] = ''
 
 def connect_db():
-    sql = sqlite3.connect('')
+    sql = sqlite3.connect('') # Insert Database Path
     sql.row_factory = sqlite3.Row
     return sql
 
